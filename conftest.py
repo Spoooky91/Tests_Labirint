@@ -1,31 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Spoooky91 
-Julia-Leshkova
-/
-Tests_Labirint
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Tests_Labirint/conftest.py /
-@Julia-Leshkova
-Julia-Leshkova file added
-Latest commit ddc3a2d on 21 Apr
- History
- 1 contributor
-115 lines (83 sloc)  3.55 KB
-   
 # This is example shows how we can manage failed tests
 # and make screenshots after any failed test case.
 
@@ -141,16 +113,3 @@ def pytest_collection_finish(session):
                 print(full_name)
 
         pytest.exit('Done!')
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
